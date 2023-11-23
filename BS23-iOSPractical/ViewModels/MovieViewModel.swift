@@ -10,11 +10,24 @@ import Combine
 
 class MovieViewModel: ObservableObject {
     @Published var movies: [Movie] = []
+    @Published var searchQuery = "marvel"
     private var movieService = MovieService()
     private var cancellables = Set<AnyCancellable>()
 
     init() {
-        movieService.fetchMovies()
+        fetchMovies(query: "marvel")
+
+        $searchQuery
+            .removeDuplicates()
+            .debounce(for: 0.5, scheduler: DispatchQueue.main)
+            .sink { [weak self] query in
+                self?.fetchMovies(query: query)
+            }
+            .store(in: &cancellables)
+    }
+
+    private func fetchMovies(query: String) {
+        movieService.fetchMovies(searchQuery: query)
             .sink(receiveCompletion: { completion in
                 switch completion {
                 case .failure(let error):
@@ -28,5 +41,7 @@ class MovieViewModel: ObservableObject {
             .store(in: &cancellables)
     }
 }
+
+
 
 

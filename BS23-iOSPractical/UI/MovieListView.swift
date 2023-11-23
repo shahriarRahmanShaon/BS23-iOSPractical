@@ -22,7 +22,7 @@ struct MovieListView: View {
                         Image(systemName: "photo")
                             .frame(width: 100, height: 150)
                     }
-                    VStack(alignment: .leading) {
+                    LazyVStack(alignment: .leading) {
                         Text(movie.title)
                             .font(.headline)
                         Text(movie.overview)
@@ -31,7 +31,8 @@ struct MovieListView: View {
                     }
                 }
             }
-            .navigationTitle("Movies")
+            .searchable(text: $viewModel.searchQuery)
+            .navigationTitle("Movie List")
         }
     }
 }
