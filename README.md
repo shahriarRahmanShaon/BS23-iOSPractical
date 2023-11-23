@@ -11,6 +11,10 @@ This iOS app, built using SwiftUI and the Combine framework, showcases a practic
 - **Combine for Networking**: Uses the Combine framework for handling asynchronous network requests and data binding.
 
 ## Screenshots
+![IMG_3631](https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/0364830f-2a1f-454d-81b8-d980027c5c5f)
+![IMG_3632](https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/484eed4f-4e9f-4938-8d6a-c6428e9141a1)
+![IMG_3633](https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/b8f4c143-100d-4783-a92c-b8689bbf7d74)
+
 
 ## Architecture
 - **MVVM**: The app is structured around the Model-View-ViewModel (MVVM) architectural pattern, promoting separation of concerns and improving maintainability.
