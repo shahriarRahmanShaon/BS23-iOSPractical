@@ -2,7 +2,7 @@
 iOS Practical test application for brain station 23 
 
 ## Overview
-This iOS app, built using SwiftUI and the Combine framework, showcases a practical implementation of the MVVM architecture. It allows users to view a list of movies fetched from The Movie Database (TMDb) API, focusing initially on Marvel movies.
+This iOS app, built using SwiftUI and the Combine framework, showcases a practical implementation of the MVVM architecture. It allows users to view a list of movies fetched from The Movie Database (TMDb) API, focusing initially on Marvel movies. We have two branches for two features ( Show default list and Search feature )
 
 ## Features
 - **Default Marvel Movies List**: Automatically displays a list of Marvel movies at launch.
