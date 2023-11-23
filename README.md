@@ -7,13 +7,18 @@ This iOS app, built using SwiftUI and the Combine framework, showcases a practic
 ## Features
 - **Default Marvel Movies List**: Automatically displays a list of Marvel movies at launch.
 - **Dynamic Movie Search**: Users can search for movies using different queries.
+- **Default Image for unavailable images**: Showing default missing image for missing movie image
 - **SwiftUI Interface**: The app features a SwiftUI-based user interface, ensuring a modern and responsive user experience.
 - **Combine for Networking**: Uses the Combine framework for handling asynchronous network requests and data binding.
 
 ## Screenshots
-![IMG_3631](https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/0364830f-2a1f-454d-81b8-d980027c5c5f)
-![IMG_3632](https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/484eed4f-4e9f-4938-8d6a-c6428e9141a1)
-![IMG_3633](https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/b8f4c143-100d-4783-a92c-b8689bbf7d74)
+
+<p float="left">
+  <img src="https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/0364830f-2a1f-454d-81b8-d980027c5c5f" width="300" />
+  <img src="https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/484eed4f-4e9f-4938-8d6a-c6428e9141a1" width="300" />
+  <img src="https://github.com/shahriarRahmanShaon/BS23-iOSPractical/assets/74074750/b8f4c143-100d-4783-a92c-b8689bbf7d74" width="300" />
+</p>
+
 
 
 ## Architecture
